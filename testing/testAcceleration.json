@@ -1,0 +1,36 @@
+{
+  "imageUrl": "",
+  "testMode": "Form",
+  "frequency": "0.1",
+  "activePoll": true,
+  "testDescription": "",
+  "testProject": "accelorometer",
+  "debug": true,
+  "dataPoints": [
+    {
+      "label": "AccX",
+      "expression": "a.getAxisAccelerations().x",
+      "type": "number",
+      "points": []
+    },
+    {
+      "label": "AccY",
+      "expression": "a.getAxisAccelerations().y",
+      "type": "number",
+      "points": []
+    },
+    {
+      "label": "AccZ",
+      "expression": "a.getAxisAccelerations().z",
+      "type": "number",
+      "points": []
+    },
+    {
+      "label": "total",
+      "expression": "a.getAbsoluteAcceleration()",
+      "type": "number",
+      "points": []
+    }
+  ],
+  "actionPoints": []
+}
